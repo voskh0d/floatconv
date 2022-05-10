@@ -60,3 +60,6 @@ pub mod soft;
 pub mod fast;
 
 mod special;
+
+#[cfg(kani)]
+mod formal;
